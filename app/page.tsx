@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 
 
-const page = () => {
+const Page = () => {
   const [isCall , setIscall] = useState<boolean>(false)
   const [isWhatsapp , setIsWhatsapp] = useState<boolean>(false)
   const [isMail , setIsMail] = useState<boolean>(false)
@@ -150,4 +150,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
